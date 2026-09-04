@@ -1,0 +1,29 @@
+site_name: "Новый Рассвет v2.0"
+site_description: "Открытая база знаний для восстановления цивилизации"
+site_author: "New Dawn Team"
+
+theme:
+  name: material
+  language: ru
+  palette:
+    primary: "deep orange"
+    accent: "amber"
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
+nav:
+  - Главная: index.md
+  - Модули:
+    - "06. Еда и Водоснабжение": 
+      - "Обзор": "06_Еда_и_Водоснабжение/README.md"
+      - "Удобрения": "06_Еда_и_Водоснабжение/01_Натуральные_удобрения_и_почва.md"
+      - "Грядки": "06_Еда_и_Водоснабжение/02_Типология_грядок_и_агротехника.md"
+      - "Нутрициология": "06_Еда_и_Водоснабжение/03_Научная_нутрициология_энергия.md"
+  - CAD Модели: "cad_models/README.md"
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
