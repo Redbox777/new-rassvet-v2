@@ -1,7 +1,6 @@
-site_name: "Новый Рассвет v2.0"
-site_description: "Открытая модульная база знаний для восстановления цивилизации"
+site_name: "New Dawn v2.0"
+site_description: "Open source civilization rebuilding knowledge base"
 site_author: "New Dawn Team"
-site_url: "https://github.com/Redbox777/new-rassvet-v2"
 
 theme:
   name: material
@@ -10,62 +9,38 @@ theme:
     - scheme: default
       primary: deep orange
       accent: amber
-      toggle:
-        icon: material/brightness-7
-        name: Светлая тема
-    - scheme: slate
-      primary: deep orange
-      accent: amber
-      toggle:
-        icon: material/brightness-4
-        name: Тёмная тема
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.expand
     - toc.integrate
-    - search.highlight
-    - content.code.copy
 
 markdown_extensions:
   - tables
   - toc:
       permalink: true
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - attr_list
-  - md_in_html
 
 nav:
-  - Главная: index.md
-  - Ядро и Идеология:
-    - Обзор: 00_Ядро_и_Идеология/README.md
-    - Кодекс: 00_Ядро_и_Идеология/01_Кодекс_Нового_Рассвета.md
-    - Принципы: 00_Ядро_и_Идеология/02_Принципы_устойчивой_цивилизации.md
-    - TRL уровни: 00_Ядро_и_Идеология/03_TRL_уровни.md
-  - Энергетика:
-    - Обзор: 03_Энергетика_и_Технологии/README.md
-    - Гравитационные накопители: 03_Энергетика_и_Технологии/01_Гравитационные_накопители.md
-    - Солнечные панели: 03_Энергетика_и_Технологии/02_Базовая_электрика_и_солнечные_панели.md
-    - Ториевые реакторы: 03_Энергетика_и_Технологии/03_Ториевые_реакторы_принципы.md
-  - Еда и Водоснабжение:
-    - Обзор: 06_Еда_и_Водоснабжение/README.md
-    - Удобрения и почва: 06_Еда_и_Водоснабжение/01_Натуральные_удобрения_и_почва.md
-    - Типология грядок: 06_Еда_и_Водоснабжение/02_Типология_грядок_и_агротехника.md
-    - Нутрициология: 06_Еда_и_Водоснабжение/03_Научная_нутрициология_энергия.md
-  - Материалы и Производство:
-    - Обзор: 07_Материалы_и_Производство/README.md
-    - Базовые материалы: 07_Материалы_и_Производство/01_Базовые_материалы_и_их_получение.md
-    - Инструменты: 07_Материалы_и_Производство/02_Инструменты_ручной_обработки.md
-    - Мастерская: 07_Материалы_и_Производство/03_Организация_базовой_мастерской.md
-  - CAD Модели:
-    - Реестр моделей: cad_models/README.md
-    - Сельское хозяйство:
-      - Компостер Джонсона: cad_models/02_Agriculture/NR-AGR-001_Composter_Johnson_v1.parametric.md
-      - Высокая грядка: cad_models/02_Agriculture/NR-AGR-002_Raised_Bed_v1.parametric.md
-    - Строительство:
-      - Верстак: cad_models/03_Construction/NR-CON-002_Workbench_Traditional_v1.parametric.md
-      - Сыродутный горн: cad_models/03_Construction/NR-CON-004_Bloomery_Basic_v1.parametric.md
-  - Лицензия: LICENSE.md
-  - Вклад в проект: CONTRIBUTING.md
+  - Home: index.md
+  - Core:
+    - "00_Core/README.md"
+    - "Code": "00_Core/01_Code.md"
+    - "Principles": "00_Core/02_Principles.md"
+    - "TRL Levels": "00_Core/03_TRL.md"
+  - Energy:
+    - "03_Energy/README.md"
+    - "Gravity Storage": "03_Energy/01_Gravity.md"
+    - "Solar Panels": "03_Energy/02_Solar.md"
+    - "Thorium Reactors": "03_Energy/03_Thorium.md"
+  - Food & Water:
+    - "06_Food/README.md"
+    - "Fertilizers": "06_Food/01_Fertilizers.md"
+    - "Garden Beds": "06_Food/02_Beds.md"
+    - "Nutrition": "06_Food/03_Nutrition.md"
+  - Materials:
+    - "07_Materials/README.md"
+    - "Basic Materials": "07_Materials/01_Materials.md"
+    - "Tools": "07_Materials/02_Tools.md"
+    - "Workshop": "07_Materials/03_Workshop.md"
+  - CAD Models: cad_models/README.md
+  - License: LICENSE.md
