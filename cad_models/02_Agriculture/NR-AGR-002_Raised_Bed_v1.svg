@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg">
+  <text x="450" y="25" font-size="18" text-anchor="middle" font-family="Arial">Высокая грядка - Вид сверху</text>
+  <text x="450" y="45" font-size="12" text-anchor="middle" font-family="Arial">NR-AGR-002 v1.0 | 1200×2400×400мм</text>
+  
+  <!-- Внешний контур -->
+  <rect x="100" y="100" width="700" height="300" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  
+  <!-- Внутренние линии (доски) -->
+  <line x1="100" y1="250" x2="800" y2="250" stroke="#654321" stroke-width="3"/>
+  
+  <!-- Угловые стойки -->
+  <rect x="95" y="95" width="10" height="10" fill="#4a3020"/>
+  <rect x="795" y="95" width="10" height="10" fill="#4a3020"/>
+  <rect x="95" y="395" width="10" height="10" fill="#4a3020"/>
+  <rect x="795" y="395" width="10" height="10" fill="#4a3020"/>
+  
+  <!-- Размеры -->
+  <line x1="100" y1="430" x2="800" y2="430" stroke="#000" stroke-width="1"/>
+  <line x1="100" y1="425" x2="100" y2="435" stroke="#000" stroke-width="1"/>
+  <line x1="800" y1="425" x2="800" y2="435" stroke="#000" stroke-width="1"/>
+  <text x="450" y="450" font-size="12" text-anchor="middle" font-family="Arial">2400 мм</text>
+  
+  <line x1="50" y1="100" x2="50" y2="400" stroke="#000" stroke-width="1"/>
+  <line x1="45" y1="100" x2="55" y2="100" stroke="#000" stroke-width="1"/>
+  <line x1="45" y1="400" x2="55" y2="400" stroke="#000" stroke-width="1"/>
+  <text x="30" y="260" font-size="12" text-anchor="middle" font-family="Arial" transform="rotate(-90 30 260)">1200 мм</text>
+  
+  <!-- Легенда -->
+  <rect x="100" y="460" width="15" height="15" fill="#8B4513"/>
+  <text x="120" y="472" font-size="10" font-family="Arial">Доска 50мм</text>
+  
+  <rect x="250" y="460" width="10" height="10" fill="#4a3020"/>
+  <text x="270" y="470" font-size="10" font-family="Arial">Стойка 50×50мм</text>
+</svg>
