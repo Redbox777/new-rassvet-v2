@@ -3,71 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Новый Рассвет v2.0</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #1a1a2e; color: #eee; }
-        h1 { color: #ff9800; text-align: center; }
-        .module { background: #16213e; padding: 20px; margin: 15px 0; border-radius: 10px; border-left: 4px solid #ff9800; }
-        .module h2 { color: #4fc3f7; margin-top: 0; }
-        a { color: #4fc3f7; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .cad { background: #0f3460; padding: 15px; margin: 10px 0; border-radius: 8px; }
-        ul { padding-left: 20px; }
-        li { margin: 8px 0; }
-    </style>
+    <meta name="description" content="Новый Рассвет v2.0 - Открытая база знаний для восстановления цивилизации">
+    <title>🌅 Новый Рассвет v2.0</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>🌅 Новый Рассвет v2.0</h1>
-    <p style="text-align: center; font-size: 1.2em;">Открытая база знаний для восстановления цивилизации</p>
-    
-    <div class="module">
-        <h2> Модули проекта</h2>
+    <header>
+        <h1>🌅 Новый Рассвет v2.0</h1>
+        <p>Открытая база знаний для построения устойчивой цивилизации</p>
+    </header>
+
+    <nav>
         <ul>
-            <li><a href="../00_Ядро_и_Идеология/README.md">00. Ядро и Идеология</a> - Кодекс, принципы, TRL</li>
-            <li><a href="../01_Общество_и_Социум/README.md">01. Общество и Социум</a> - Структура, профессии, образование</li>
-            <li><a href="../03_Энергетика_и_Технологии/README.md">03. Энергетика и Технологии</a> - Гравитация, солнечные панели, торий</li>
-            <li><a href="../04_Безопасность_и_Оборона/README.md">04. Безопасность и Оборона</a> - Периметр, предупреждение, склады</li>
-            <li><a href="../05_Строительство_и_Купол/README.md">05. Строительство и Купол</a> - Фундаменты, монолитный купол</li>
-            <li><a href="../06_Еда_и_Водоснабжение/README.md">06. Еда и Водоснабжение</a> - Удобрения, грядки, нутрициология</li>
-            <li><a href="../07_Материалы_и_Производство/README.md">07. Материалы и Производство</a> - Материалы, инструменты, мастерская</li>
+            <li><a href="#modules">📚 Модули</a></li>
+            <li><a href="#cad">🔧 CAD Модели</a></li>
+            <li><a href="https://github.com/Redbox777/new-rassvet-v2">GitHub</a></li>
+            <li><a href="LICENSE.md">📄 Лицензия</a></li>
         </ul>
+    </nav>
+
+    <div class="container">
+        <section id="modules">
+            <div class="module">
+                <h2> Модули проекта</h2>
+                <p>Проект состоит из 11 тематических модулей, охватывающих все аспекты восстановления цивилизации:</p>
+                
+                <h3>✅ Готовые модули:</h3>
+                <ul>
+                    <li><a href="modules/00_Core.html">00. Ядро и Идеология</a> <span class="status status-ready">✓ Готово</span><br>
+                    <small>Кодекс, принципы устойчивой цивилизации, TRL уровни</small></li>
+                    
+                    <li><a href="modules/01_Society.html">01. Общество и Социум</a> <span class="status status-ready">✓ Готово</span><br>
+                    <small>Структура общины, разделение труда, система образования</small></li>
+                    
+                    <li><a href="modules/03_Energy.html">03. Энергетика и Технологии</a> <span class="status status-ready">✓ Готово</span><br>
+                    <small>Гравитационные накопители, солнечные панели, ториевые реакторы</small></li>
+                    
+                    <li><a href="modules/04_Safety.html">04. Безопасность и Оборона</a> <span class="status status-ready">✓ Готово</span><br>
+                    <small>Периметральная защита, раннее предупреждение, хранение ресурсов</small></li>
+                    
+                    <li><a href="modules/05_Construction.html">05. Строительство и Купол</a> <span class="status status-ready">✓ Готово</span><br>
+                    <small>Фундаменты, монолитный купол, утепление и гидроизоляция</small></li>
+                    
+                    <li><a href="modules/06_Food.html">06. Еда и Водоснабжение</a> <span class="status status-ready">✓ Готово</span><br>
+                    <small>Натуральные удобрения, типология грядок, научная нутрициология</small></li>
+                    
+                    <li><a href="modules/07_Materials.html">07. Материалы и Производство</a> <span class="status status-ready">✓ Готово</span><br>
+                    <small>Базовые материалы, инструменты, организация мастерской</small></li>
+                </ul>
+
+                <h3>⏳ В разработке:</h3>
+                <ul>
+                    <li>02. Инфраструктура и Логистика <span class="status status-pending">В плане</span></li>
+                    <li>08. Медицина и Генетика <span class="status status-pending">В плане</span></li>
+                    <li>09. Образование и Культура <span class="status status-pending">В плане</span></li>
+                    <li>10. Космос и Транспорт <span class="status status-pending">В плане</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="cad">
+            <div class="module">
+                <h2> CAD Модели</h2>
+                <p>Параметрические 3D-модели и чертежи для изготовления:</p>
+                
+                <div class="cad-list">
+                    <div class="cad-item">
+                        <div class="cad-code">NR-AGR-001</div>
+                        <div><a href="cad/NR-AGR-001.md">Компостер Джонсона</a></div>
+                        <small>3-камерный компостер с вентиляцией</small>
+                    </div>
+                    
+                    <div class="cad-item">
+                        <div class="cad-code">NR-AGR-002</div>
+                        <div><a href="cad/NR-AGR-002.md">Высокая грядка</a></div>
+                        <small>Деревянный короб 1.2×2.4м</small>
+                    </div>
+                    
+                    <div class="cad-item">
+                        <div class="cad-code">NR-AGR-003</div>
+                        <div><a href="cad/NR-AGR-003.md">Сбор дождевой воды</a></div>
+                        <small>Система сбора и фильтрации</small>
+                    </div>
+                    
+                    <div class="cad-item">
+                        <div class="cad-code">NR-CON-002</div>
+                        <div><a href="cad/NR-CON-002.md">Столярный верстак</a></div>
+                        <small>Традиционный верстак с тисками</small>
+                    </div>
+                    
+                    <div class="cad-item">
+                        <div class="cad-code">NR-CON-004</div>
+                        <div><a href="cad/NR-CON-004.md">Сыродутный горн</a></div>
+                        <small>Получение железа из руды</small>
+                    </div>
+                    
+                    <div class="cad-item">
+                        <div class="cad-code">NR-CON-005</div>
+                        <div><a href="cad/NR-CON-005.md">Геодезический купол</a></div>
+                        <small>2V купол диаметром 6м</small>
+                    </div>
+                    
+                    <div class="cad-item">
+                        <div class="cad-code">NR-ENR-003</div>
+                        <div><a href="cad/NR-ENR-003.md">Ветрогенератор</a></div>
+                        <small>12В, 400Вт, мачта 6м</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="module">
+                <h2> О проекте</h2>
+                <p><strong>Новый Рассвет</strong> — это открытая база знаний для восстановления цивилизации с нуля. 
+                Проект вдохновлён Open Source Ecology и их Global Village Construction Set.</p>
+                
+                <h3>Основные принципы:</h3>
+                <ul>
+                    <li>📖 <strong>Открытость</strong> — все знания свободны и доступны</li>
+                    <li>🔄 <strong>Устойчивость</strong> — возобновляемые ресурсы и замкнутые циклы</li>
+                    <li>🛠️ <strong>Практичность</strong> — проверенные технологии от TRL 1 до TRL 5</li>
+                    <li> <strong>Автономность</strong> — независимость от внешних поставок</li>
+                </ul>
+            </div>
+        </section>
     </div>
-    
-    <div class="module">
-        <h2>🔧 CAD Модели</h2>
-        <div class="cad">
-            <strong>NR-AGR-001</strong> - <a href="../cad_models/02_Agriculture/NR-AGR-001_Composter_Johnson_v1.parametric.md">Компостер Джонсона</a>
-        </div>
-        <div class="cad">
-            <strong>NR-AGR-002</strong> - <a href="../cad_models/02_Agriculture/NR-AGR-002_Raised_Bed_v1.parametric.md">Высокая грядка</a>
-        </div>
-        <div class="cad">
-            <strong>NR-AGR-003</strong> - <a href="../cad_models/02_Agriculture/NR-AGR-003_Rainwater_Harvest_v1.parametric.md">Сбор дождевой воды</a>
-        </div>
-        <div class="cad">
-            <strong>NR-CON-002</strong> - <a href="../cad_models/03_Construction/NR-CON-002_Workbench_Traditional_v1.parametric.md">Столярный верстак</a>
-        </div>
-        <div class="cad">
-            <strong>NR-CON-004</strong> - <a href="../cad_models/03_Construction/NR-CON-004_Bloomery_Basic_v1.parametric.md">Сыродутный горн</a>
-        </div>
-        <div class="cad">
-            <strong>NR-CON-005</strong> - <a href="../cad_models/03_Construction/NR-CON-005_Geodesic_Dome_v1.parametric.md">Геодезический купол</a>
-        </div>
-        <div class="cad">
-            <strong>NR-ENR-003</strong> - <a href="../cad_models/01_Energy/NR-ENR-003_Wind_Turbine_v1.parametric.md">Ветрогенератор</a>
-        </div>
-    </div>
-    
-    <div class="module">
-        <h2>🔗 Ссылки</h2>
-        <ul>
-            <li><a href="https://github.com/Redbox777/new-rassvet-v2">GitHub репозиторий</a></li>
-            <li><a href="../LICENSE.md">Лицензия</a></li>
-        </ul>
-    </div>
-    
-    <footer style="text-align: center; margin-top: 40px; opacity: 0.7;">
-        <p>CC-BY-SA 4.0 + CERN-OHL-S v2</p>
+
+    <footer>
+        <p>Лицензия: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> (документация) + 
+        <a href="https://ohwr.org/cern_ohl_s_v2.txt">CERN-OHL-S v2</a> (CAD)</p>
+        <p>© 2024 New Dawn Project | <a href="https://github.com/Redbox777/new-rassvet-v2">GitHub</a></p>
     </footer>
 </body>
 </html>

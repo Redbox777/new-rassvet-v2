@@ -1,0 +1,215 @@
+/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #e0e0e0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* Шапка */
+header {
+    background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.95;
+}
+
+/* Навигация */
+nav {
+    background: rgba(0,0,0,0.3);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: #4fc3f7;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s;
+    display: block;
+}
+
+nav a:hover {
+    background: rgba(79, 195, 247, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Контейнер */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Модули */
+.module {
+    background: rgba(22, 33, 62, 0.8);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    border-left: 5px solid #ff9800;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.module:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+}
+
+.module h2 {
+    color: #4fc3f7;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.module h3 {
+    color: #ff9800;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.module ul {
+    padding-left: 1.5rem;
+}
+
+.module li {
+    margin: 0.5rem 0;
+}
+
+.module a {
+    color: #4fc3f7;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.module a:hover {
+    color: #ff9800;
+    text-decoration: underline;
+}
+
+/* CAD модели */
+.cad-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cad-item {
+    background: rgba(15, 52, 96, 0.6);
+    padding: 1rem;
+    border-radius: 8px;
+    border: 2px solid #4fc3f7;
+    transition: all 0.3s;
+}
+
+.cad-item:hover {
+    border-color: #ff9800;
+    transform: scale(1.02);
+}
+
+.cad-code {
+    color: #ff9800;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+/* Статус */
+.status {
+    display: inline-block;
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.status-ready {
+    background: #4caf50;
+    color: white;
+}
+
+.status-progress {
+    background: #ff9800;
+    color: white;
+}
+
+.status-pending {
+    background: #757575;
+    color: white;
+}
+
+/* Подвал */
+footer {
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    color: #aaa;
+}
+
+footer a {
+    color: #4fc3f7;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .module {
+        padding: 1.5rem 1rem;
+    }
+    
+    .cad-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Анимации */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.module {
+    animation: fadeIn 0.6s ease-out;
+}
