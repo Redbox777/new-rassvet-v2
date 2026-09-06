@@ -1,23 +1,21 @@
-# New Dawn v2.0
+# 🌅 New Dawn v2.0
 
 **Open source knowledge base for rebuilding civilization**
 
 ## Modules
 
-- **00 Core** - Code, principles, TRL levels
-- **03 Energy** - Gravity storage, solar panels, thorium reactors
-- **06 Food & Water** - Agriculture, fertilizers, nutrition
-- **07 Materials** - Basic materials, tools, workshop
+- [Core (00)](../00_Ядро_и_Идеология/README.md)
+- [Society (01)](../01_Общество_и_Социум/README.md)
+- [Energy (03)](../03_Энергетика_и_Технологии/README.md)
+- [Safety (04)](../04_Безопасность_и_Оборона/README.md)
+- [Construction (05)](../05_Строительство_и_Купол/README.md)
+- [Food & Water (06)](../06_Еда_и_Водоснабжение/README.md)
+- [Materials (07)](../07_Материалы_и_Производство/README.md)
 
 ## CAD Models
 
-- NR-AGR-001: Composter Johnson
-- NR-AGR-002: Raised Garden Bed
-- NR-CON-002: Workbench
-- NR-CON-004: Bloomery Furnace
-
-## Quick Links
-
-- [GitHub Repository](https://github.com/Redbox777/new-rassvet-v2)
-- [CAD Models](../cad_models/README.md)
-- [License](../LICENSE.md)
+- [Composter](../cad_models/02_Agriculture/NR-AGR-001_Composter_Johnson_v1.parametric.md)
+- [Raised Bed](../cad_models/02_Agriculture/NR-AGR-002_Raised_Bed_v1.parametric.md)
+- [Workbench](../cad_models/03_Construction/NR-CON-002_Workbench_Traditional_v1.parametric.md)
+- [Bloomery](../cad_models/03_Construction/NR-CON-004_Bloomery_Basic_v1.parametric.md)
+- [Geodesic Dome](../cad_models/03_Construction/NR-CON-005_Geodesic_Dome_v1.parametric.md)
