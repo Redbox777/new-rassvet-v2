@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="700" xmlns="http://www.w3.org/2000/svg">
+  <text x="300" y="25" font-size="18" text-anchor="middle" font-family="Arial">Система сбора дождевой воды</text>
+  <text x="300" y="45" font-size="12" text-anchor="middle" font-family="Arial">NR-AGR-003 v1.0 | 200л</text>
+  
+  <!-- Крыша -->
+  <polygon points="100,100 300,50 500,100" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  
+  <!-- Жёлоб -->
+  <rect x="480" y="95" width="40" height="20" fill="#696969" stroke="#000" stroke-width="1"/>
+  
+  <!-- Труба -->
+  <rect x="495" y="115" width="10" height="150" fill="#4a4a4a" stroke="#000" stroke-width="1"/>
+  
+  <!-- Фильтр первого дождя -->
+  <rect x="470" y="265" width="40" height="60" fill="#87CEEB" stroke="#000" stroke-width="2"/>
+  <text x="490" y="300" font-size="8" text-anchor="middle" font-family="Arial">Фильтр</text>
+  
+  <!-- Сетчатый фильтр -->
+  <rect x="485" y="325" width="20" height="30" fill="#90EE90" stroke="#000" stroke-width="1"/>
+  
+  <!-- Бак -->
+  <rect x="350" y="355" width="200" height="300" fill="#4682B4" stroke="#000" stroke-width="2"/>
+  <text x="450" y="500" font-size="12" text-anchor="middle" font-family="Arial" fill="#fff">БАК 200л</text>
+  
+  <!-- Кран -->
+  <circle cx="540" cy="620" r="8" fill="#FFD700" stroke="#000" stroke-width="1"/>
+  
+  <!-- Стрелки потока -->
+  <line x1="520" y1="140" x2="520" y2="260" stroke="blue" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="505" y1="325" x2="505" y2="350" stroke="blue" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Подписи -->
+  <text x="200" y="80" font-size="10" font-family="Arial">Крыша 30м²</text>
+  <text x="530" y="105" font-size="10" font-family="Arial">Жёлоб</text>
+  <text x="560" y="625" font-size="10" font-family="Arial">Кран</text>
+  
+  <!-- Маркер стрелки -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="blue" />
+    </marker>
+  </defs>
+</svg>
