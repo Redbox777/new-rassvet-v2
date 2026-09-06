@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <text x="300" y="30" font-size="18" text-anchor="middle" font-family="Arial">Дуговой парник (Разрез)</text>
+  <text x="300" y="50" font-size="12" text-anchor="middle" font-family="Arial">NR-AGR-004 v1.0 | 4.0 x 1.5 x 1.2 м</text>
+  
+  <!-- Земля -->
+  <rect x="50" y="300" width="500" height="100" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  
+  <!-- Тёплая грядка (слои) -->
+  <rect x="100" y="250" width="400" height="50" fill="#5C4033" stroke="#000" stroke-width="1"/>
+  <text x="300" y="280" font-size="10" text-anchor="middle" font-family="Arial" fill="#fff">Навоз/Компост (биоподогрев)</text>
+  
+  <rect x="100" y="220" width="400" height="30" fill="#228B22" stroke="#000" stroke-width="1"/>
+  <text x="300" y="240" font-size="10" text-anchor="middle" font-family="Arial" fill="#fff">Плодородная земля</text>
+  
+  <!-- Дуги -->
+  <path d="M 100,220 Q 300,50 500,220" fill="none" stroke="#4682B4" stroke-width="3"/>
+  <path d="M 150,220 Q 300,80 450,220" fill="none" stroke="#4682B4" stroke-width="3"/>
+  <path d="M 200,220 Q 300,110 400,220" fill="none" stroke="#4682B4" stroke-width="3"/>
+  
+  <!-- Плёнка -->
+  <path d="M 90,220 Q 300,40 510,220" fill="rgba(173, 216, 230, 0.3)" stroke="#87CEEB" stroke-width="2"/>
+  
+  <!-- Размеры -->
+  <line x1="100" y1="350" x2="500" y2="350" stroke="#000" stroke-width="1"/>
+  <text x="300" y="370" font-size="12" text-anchor="middle" font-family="Arial">4000 мм</text>
+  
+  <line x1="550" y1="220" x2="550" y2="40" stroke="#000" stroke-width="1"/>
+  <text x="570" y="130" font-size="12" font-family="Arial">1200 мм</text>
+</svg>
